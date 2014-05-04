@@ -63,8 +63,9 @@ function get_target_data(url_str) {
         try {
           //link the data
           var inner_htm = data.results.bindings[i].o.type == "uri" ? '<a href="'+data.results.bindings[i].o.value+'">'+ data.results.bindings[i].o.value +'</a>': data.results.bindings[i].o.value;
-
-          data_st.push('<li>'+data.results.bindings[i].p.value+" : "+inner_htm+'<li>');
+          var datastr = data.results.bindings[i].p.value;
+          var pred = datastr.split('/');
+          data_st.push('<li>'+pred[(pred.length-1)]+" : "+inner_htm+'<li>');
       } catch (e) {
           console.error("Sub Parsing error:", e); 
       }
