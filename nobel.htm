@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Nobel Prize</title>
+<style>
+ul { list-style-type: none; }
+p { font-family: Arial, sans-serif;}
+li { font-family: Arial, sans-serif;}
+a {text-decoration:none;}
+a:link {color:#000000;}      /* unvisited link */
+a:visited {color:#483D8B;}  /* visited link */
+a:hover {color:#0000CD;}  /* mouse over link */
+</style>
+<script src="data.js" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+ </head>
+ <body>
+   <script type="text/javascript" charset="utf-8">
+
+var jqxhr = $.getJSON( "nobel.json", function() {
+  console.log( "success" );
+})
+.success(function(data) 
+ { 
+   for (var i in data.results.bindings)
+   {
+      try {
+          $("#nobel").append("<li><a href=\""+data.results.bindings[i].resource.value+"\" target=\"_blank\">"+data.results.bindings[i].name.value+"</a> died on "+ clean_date(data.results.bindings[i].value.value));
+      } catch (e) {
+          console.error("Parsing error:", e); 
+      }
+   }
+   // hover functions
+   $( "li" ).hover(
+     function(e) { 
+       $(this).append( (e.currentTarget, '<span>'+ get_target_data(e.target.href) +'</span>') );
+     }, function() {
+       $(this).find( "span:last" ).remove();
+     }
+   );
+   $( "li.fade" ).hover(function() {
+     $(this).fadeOut( 100 );
+     $(this).fadeIn( 500 );
+   });
+ }
+)
+.fail(function() { console.log( "error" ); })
+.always(function() { console.log( "complete" ); 
+//cache the data - use backbone?
+});
+
+function get_target_data(url_str) {
+    var data_st = [];
+//"http://data.nobelprize.org/snorql/?query=SELECT+DISTINCT+*+WHERE+%7B%0D%0A++%3Chttp%3A%2F%2Fdata.nobelprize.org%2Fresource%2Fawardfile%2F1%3E+%3Fp+%3Fo%0D%0A%7D%0D%0ALIMIT+10%0D%0A"
+    var sjqxhr = $.ajax("1.json",  function() {
+      console.log( " sub success" );
+    })
+    .success(function(data) 
+    { 
+       for (var i in data.results.bindings)
+       {
+        try {
+          //link the data
+          var inner_htm = data.results.bindings[i].o.type == "uri" ? '<a href="'+data.results.bindings[i].o.value+'">'+ data.results.bindings[i].o.value +'</a>': data.results.bindings[i].o.value;
+
+          data_st.push('<li>'+data.results.bindings[i].p.value+" : "+inner_htm+'<li>');
+      } catch (e) {
+          console.error("Sub Parsing error:", e); 
+      }
+    }
+            $( "<ul/>", {
+         "class": "my-new-list",
+         html: data_st.join( "" )
+       }).appendTo( "span" );
+ }
+)
+.fail(function() { console.log( "error" ); })
+.always(function() { 
+  console.log( "complete" ); 
+  //cache the data - use backbone?
+});
+}
+</script>
+
+</body>
+<p>A list of Nobel prize winners whose work might be in the public domain.</p>
+ <div id="biog"></div>
+ <div id="prize">
+   <ul>
+   <div id="nobel" />
+   </ul>
+ </div>
+
+</html>

@@ -1,0 +1,81 @@
+{
+  "head": {
+    "vars": [ "p" , "o" ]
+  } ,
+  "results": {
+    "bindings": [
+      {
+        "p": { "type": "uri" , "value": "http://www.w3.org/2000/01/rdf-schema#label" } ,
+        "o": { "type": "literal" , "value": "Wilhelm Conrad Röntgen" }
+      } ,
+      {
+        "p": { "type": "uri" , "value": "http://www.w3.org/2002/07/owl#sameAs" } ,
+        "o": { "type": "uri" , "value": "http://dbpedia.org/resource/Wilhelm_Röntgen" }
+      } ,
+      {
+        "p": { "type": "uri" , "value": "http://xmlns.com/foaf/0.1/name" } ,
+        "o": { "type": "literal" , "value": "Wilhelm Conrad Röntgen" }
+      } ,
+      {
+        "p": { "type": "uri" , "value": "http://dbpedia.org/ontology/birthPlace" } ,
+        "o": { "type": "uri" , "value": "http://data.nobelprize.org/resource/country/Prussia_%28now_Germany%29" }
+      } ,
+      {
+        "p": { "type": "uri" , "value": "http://dbpedia.org/property/dateOfDeath" } ,
+        "o": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1923-02-10" }
+      } ,
+      {
+        "p": { "type": "uri" , "value": "http://dbpedia.org/property/dateOfBirth" } ,
+        "o": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1845-03-27" }
+      } ,
+      {
+        "p": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "o": { "type": "uri" , "value": "http://xmlns.com/foaf/0.1/Person" }
+      } ,
+      {
+        "p": { "type": "uri" , "value": "http://dbpedia.org/ontology/deathPlace" } ,
+        "o": { "type": "uri" , "value": "http://data.nobelprize.org/resource/city/Munich" }
+      } ,
+      {
+        "p": { "type": "uri" , "value": "http://xmlns.com/foaf/0.1/givenName" } ,
+        "o": { "type": "literal" , "value": "Wilhelm Conrad" }
+      } ,
+      {
+        "p": { "type": "uri" , "value": "http://xmlns.com/foaf/0.1/familyName" } ,
+        "o": { "type": "literal" , "value": "Röntgen" }
+      } ,
+      {
+        "p": { "type": "uri" , "value": "http://xmlns.com/foaf/0.1/birthday" } ,
+        "o": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1845-03-27" }
+      } ,
+      {
+        "p": { "type": "uri" , "value": "http://data.nobelprize.org/terms/laureateAward" } ,
+        "o": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureateaward/1" }
+      } ,
+      {
+        "p": { "type": "uri" , "value": "http://dbpedia.org/ontology/birthPlace" } ,
+        "o": { "type": "uri" , "value": "http://data.nobelprize.org/resource/city/Lennep_%28now_Remscheid%29" }
+      } ,
+      {
+        "p": { "type": "uri" , "value": "http://dbpedia.org/ontology/deathPlace" } ,
+        "o": { "type": "uri" , "value": "http://data.nobelprize.org/resource/country/Germany" }
+      } ,
+      {
+        "p": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "o": { "type": "uri" , "value": "http://data.nobelprize.org/terms/Laureate" }
+      } ,
+      {
+        "p": { "type": "uri" , "value": "http://xmlns.com/foaf/0.1/gender" } ,
+        "o": { "type": "literal" , "value": "male" }
+      } ,
+      {
+        "p": { "type": "uri" , "value": "http://dbpedia.org/ontology/affiliation" } ,
+        "o": { "type": "uri" , "value": "http://data.nobelprize.org/resource/university/Munich_University" }
+      } ,
+      {
+        "p": { "type": "uri" , "value": "http://data.nobelprize.org/terms/nobelPrize" } ,
+        "o": { "type": "uri" , "value": "http://data.nobelprize.org/resource/nobelprize/Physics/1901" }
+      }
+    ]
+  }
+}

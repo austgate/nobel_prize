@@ -1,0 +1,609 @@
+{
+  "head": {
+    "vars": [ "resource" , "name" , "value" ]
+  } ,
+  "results": {
+    "bindings": [
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/1" } ,
+        "name": { "type": "literal" , "value": "Wilhelm Conrad Röntgen" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1923-02-10" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/10" } ,
+        "name": { "type": "literal" , "value": "Joseph John Thomson" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1940-08-30" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/11" } ,
+        "name": { "type": "literal" , "value": "Albert Abraham Michelson" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1931-05-09" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/12" } ,
+        "name": { "type": "literal" , "value": "Gabriel Lippmann" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1921-07-13" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/13" } ,
+        "name": { "type": "literal" , "value": "Guglielmo Marconi" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1937-07-20" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/14" } ,
+        "name": { "type": "literal" , "value": "Karl Ferdinand Braun" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1918-04-20" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/15" } ,
+        "name": { "type": "literal" , "value": "Johannes Diderik van der Waals" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1923-03-08" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/16" } ,
+        "name": { "type": "literal" , "value": "Wilhelm Wien" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1928-08-30" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/160" } ,
+        "name": { "type": "literal" , "value": "Jacobus Henricus van 't Hoff" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1911-03-01" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/161" } ,
+        "name": { "type": "literal" , "value": "Hermann Emil Fischer" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1919-07-15" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/162" } ,
+        "name": { "type": "literal" , "value": "Svante August Arrhenius" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1927-10-02" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/163" } ,
+        "name": { "type": "literal" , "value": "Sir William Ramsay" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1916-07-23" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/164" } ,
+        "name": { "type": "literal" , "value": "Johann Friedrich Wilhelm Adolf von Baeyer" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1917-08-20" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/165" } ,
+        "name": { "type": "literal" , "value": "Henri Moissan" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1907-02-20" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/166" } ,
+        "name": { "type": "literal" , "value": "Eduard Buchner" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1917-08-13" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/167" } ,
+        "name": { "type": "literal" , "value": "Ernest Rutherford" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1937-10-19" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/168" } ,
+        "name": { "type": "literal" , "value": "Wilhelm Ostwald" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1932-04-04" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/169" } ,
+        "name": { "type": "literal" , "value": "Otto Wallach" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1931-02-26" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/17" } ,
+        "name": { "type": "literal" , "value": "Nils Gustaf Dalén" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1937-12-09" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/172" } ,
+        "name": { "type": "literal" , "value": "Victor Grignard" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1935-12-13" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/173" } ,
+        "name": { "type": "literal" , "value": "Paul Sabatier" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1941-08-14" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/174" } ,
+        "name": { "type": "literal" , "value": "Alfred Werner" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1919-11-15" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/175" } ,
+        "name": { "type": "literal" , "value": "Theodore William Richards" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1928-04-02" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/176" } ,
+        "name": { "type": "literal" , "value": "Richard Martin Willstätter" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1942-08-03" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/177" } ,
+        "name": { "type": "literal" , "value": "Fritz Haber" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1934-01-29" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/178" } ,
+        "name": { "type": "literal" , "value": "Walther Hermann Nernst" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1941-11-18" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/18" } ,
+        "name": { "type": "literal" , "value": "Heike Kamerlingh Onnes" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1926-02-21" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/181" } ,
+        "name": { "type": "literal" , "value": "Fritz Pregl" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1930-12-13" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/182" } ,
+        "name": { "type": "literal" , "value": "Richard Adolf Zsigmondy" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1929-09-24" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/186" } ,
+        "name": { "type": "literal" , "value": "Arthur Harden" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1940-06-17" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/189" } ,
+        "name": { "type": "literal" , "value": "Carl Bosch" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1940-04-26" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/2" } ,
+        "name": { "type": "literal" , "value": "Hendrik Antoon Lorentz" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1928-02-04" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/20" } ,
+        "name": { "type": "literal" , "value": "Sir William Henry Bragg" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1942-03-12" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/25" } ,
+        "name": { "type": "literal" , "value": "Charles Edouard Guillaume" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1938-06-13" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/293" } ,
+        "name": { "type": "literal" , "value": "Emil Adolf von Behring" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1917-03-31" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/294" } ,
+        "name": { "type": "literal" , "value": "Ronald Ross" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1932-09-16" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/295" } ,
+        "name": { "type": "literal" , "value": "Niels Ryberg Finsen" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1904-09-24" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/296" } ,
+        "name": { "type": "literal" , "value": "Ivan Petrovich Pavlov" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1936-02-27" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/297" } ,
+        "name": { "type": "literal" , "value": "Robert Koch" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1910-05-27" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/298" } ,
+        "name": { "type": "literal" , "value": "Camillo Golgi" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1926-01-21" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/299" } ,
+        "name": { "type": "literal" , "value": "Santiago Ramón y Cajal" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1934-10-17" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/3" } ,
+        "name": { "type": "literal" , "value": "Pieter Zeeman" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1943-10-09" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/300" } ,
+        "name": { "type": "literal" , "value": "Charles Louis Alphonse Laveran" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1922-05-18" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/301" } ,
+        "name": { "type": "literal" , "value": "Ilya Ilyich Mechnikov" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1916-07-16" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/302" } ,
+        "name": { "type": "literal" , "value": "Paul Ehrlich" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1915-08-20" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/303" } ,
+        "name": { "type": "literal" , "value": "Emil Theodor Kocher" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1917-07-27" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/304" } ,
+        "name": { "type": "literal" , "value": "Albrecht Kossel" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1927-07-05" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/305" } ,
+        "name": { "type": "literal" , "value": "Allvar Gullstrand" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1930-07-28" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/307" } ,
+        "name": { "type": "literal" , "value": "Charles Robert Richet" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1935-12-04" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/308" } ,
+        "name": { "type": "literal" , "value": "Robert Bárány" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1936-04-08" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/313" } ,
+        "name": { "type": "literal" , "value": "Frederick Grant Banting" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1941-02-21" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/314" } ,
+        "name": { "type": "literal" , "value": "John James Rickard Macleod" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1935-03-16" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/315" } ,
+        "name": { "type": "literal" , "value": "Willem Einthoven" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1927-09-29" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/316" } ,
+        "name": { "type": "literal" , "value": "Johannes Andreas Grib Fibiger" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1928-01-30" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/317" } ,
+        "name": { "type": "literal" , "value": "Julius Wagner-Jauregg" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1940-09-27" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/318" } ,
+        "name": { "type": "literal" , "value": "Charles Jules Henri Nicolle" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1936-02-28" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/319" } ,
+        "name": { "type": "literal" , "value": "Christiaan Eijkman" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1930-11-05" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/32" } ,
+        "name": { "type": "literal" , "value": "Jean Baptiste Perrin" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1942-04-17" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/321" } ,
+        "name": { "type": "literal" , "value": "Karl Landsteiner" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1943-06-26" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/329" } ,
+        "name": { "type": "literal" , "value": "Hans Spemann" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1941-09-12" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/4" } ,
+        "name": { "type": "literal" , "value": "Antoine Henri Becquerel" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1908-08-25" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/462" } ,
+        "name": { "type": "literal" , "value": "Jean Henry Dunant" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1910-10-30" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/463" } ,
+        "name": { "type": "literal" , "value": "Frédéric Passy" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1912-06-12" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/464" } ,
+        "name": { "type": "literal" , "value": "Élie Ducommun" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1906-12-07" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/465" } ,
+        "name": { "type": "literal" , "value": "Charles Albert Gobat" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1914-03-16" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/466" } ,
+        "name": { "type": "literal" , "value": "William Randal Cremer" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1908-07-22" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/468" } ,
+        "name": { "type": "literal" , "value": "Baroness Bertha Sophie Felicita von Suttner, née Countess Kinsky von Chinic und Tettau" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1914-06-21" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/470" } ,
+        "name": { "type": "literal" , "value": "Theodore Roosevelt" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1919-01-06" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/471" } ,
+        "name": { "type": "literal" , "value": "Ernesto Teodoro Moneta" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1918-02-10" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/472" } ,
+        "name": { "type": "literal" , "value": "Louis Renault" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1918-02-08" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/473" } ,
+        "name": { "type": "literal" , "value": "Klas Pontus Arnoldson" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1916-02-20" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/474" } ,
+        "name": { "type": "literal" , "value": "Fredrik Bajer" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1922-01-22" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/475" } ,
+        "name": { "type": "literal" , "value": "Auguste Marie François Beernaert" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1912-10-06" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/476" } ,
+        "name": { "type": "literal" , "value": "Paul Henri Benjamin Balluet d'Estournelles de Constant, Baron de Constant de Rebecque" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1924-05-15" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/478" } ,
+        "name": { "type": "literal" , "value": "Tobias Michael Carel Asser" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1913-07-29" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/479" } ,
+        "name": { "type": "literal" , "value": "Alfred Hermann Fried" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1921-05-05" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/480" } ,
+        "name": { "type": "literal" , "value": "Elihu Root" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1937-02-07" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/481" } ,
+        "name": { "type": "literal" , "value": "Henri La Fontaine" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1943-05-14" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/483" } ,
+        "name": { "type": "literal" , "value": "Thomas Woodrow Wilson" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1924-02-03" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/484" } ,
+        "name": { "type": "literal" , "value": "Léon Victor Auguste Bourgeois" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1925-09-29" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/485" } ,
+        "name": { "type": "literal" , "value": "Karl Hjalmar Branting" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1925-02-24" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/486" } ,
+        "name": { "type": "literal" , "value": "Christian Lous Lange" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1938-12-11" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/487" } ,
+        "name": { "type": "literal" , "value": "Fridtjof Nansen" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1930-05-13" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/488" } ,
+        "name": { "type": "literal" , "value": "Sir Austen Chamberlain" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1937-03-16" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/490" } ,
+        "name": { "type": "literal" , "value": "Aristide Briand" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1932-03-07" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/491" } ,
+        "name": { "type": "literal" , "value": "Gustav Stresemann" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1929-10-03" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/492" } ,
+        "name": { "type": "literal" , "value": "Ferdinand Buisson" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1932-02-16" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/493" } ,
+        "name": { "type": "literal" , "value": "Ludwig Quidde" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1941-03-04" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/494" } ,
+        "name": { "type": "literal" , "value": "Frank Billings Kellogg" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1937-12-21" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/495" } ,
+        "name": { "type": "literal" , "value": "Lars Olof Jonathan (Nathan) Söderblom" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1931-07-12" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/496" } ,
+        "name": { "type": "literal" , "value": "Jane Addams" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1935-05-21" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/499" } ,
+        "name": { "type": "literal" , "value": "Arthur Henderson" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1935-10-20" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/5" } ,
+        "name": { "type": "literal" , "value": "Pierre Curie" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1906-04-19" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/500" } ,
+        "name": { "type": "literal" , "value": "Carl von Ossietzky" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1938-05-04" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/569" } ,
+        "name": { "type": "literal" , "value": "Sully Prudhomme" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1907-09-07" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/571" } ,
+        "name": { "type": "literal" , "value": "Christian Matthias Theodor Mommsen" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1903-11-01" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/572" } ,
+        "name": { "type": "literal" , "value": "Bjørnstjerne Martinus Bjørnson" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1910-04-26" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/573" } ,
+        "name": { "type": "literal" , "value": "Frédéric Mistral" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1914-03-25" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/574" } ,
+        "name": { "type": "literal" , "value": "José Echegaray y Eizaguirre" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1916-09-04" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/575" } ,
+        "name": { "type": "literal" , "value": "Henryk Sienkiewicz" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1916-11-15" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/576" } ,
+        "name": { "type": "literal" , "value": "Giosuè Carducci" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1907-02-16" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/577" } ,
+        "name": { "type": "literal" , "value": "Rudyard Kipling" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1936-01-18" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/578" } ,
+        "name": { "type": "literal" , "value": "Rudolf Christoph Eucken" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1926-09-14" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/579" } ,
+        "name": { "type": "literal" , "value": "Selma Ottilia Lovisa Lagerlöf" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1940-03-16" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/580" } ,
+        "name": { "type": "literal" , "value": "Paul Johann Ludwig Heyse" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1914-04-02" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/583" } ,
+        "name": { "type": "literal" , "value": "Rabindranath Tagore" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1941-08-07" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/585" } ,
+        "name": { "type": "literal" , "value": "Carl Gustaf Verner von Heidenstam" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1940-05-20" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/586" } ,
+        "name": { "type": "literal" , "value": "Karl Adolph Gjellerup" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1919-10-11" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/587" } ,
+        "name": { "type": "literal" , "value": "Henrik Pontoppidan" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1943-08-21" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/588" } ,
+        "name": { "type": "literal" , "value": "Carl Friedrich Georg Spitteler" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1924-12-29" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/590" } ,
+        "name": { "type": "literal" , "value": "Anatole France" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1924-10-12" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/593" } ,
+        "name": { "type": "literal" , "value": "William Butler Yeats" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1939-01-28" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/594" } ,
+        "name": { "type": "literal" , "value": "Wladyslaw Stanislaw Reymont" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1925-12-05" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/597" } ,
+        "name": { "type": "literal" , "value": "Grazia Deledda" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1936-08-15" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/6" } ,
+        "name": { "type": "literal" , "value": "Marie Curie, née Sklodowska" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1934-07-04" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/600" } ,
+        "name": { "type": "literal" , "value": "Henri Bergson" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1941-01-04" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/604" } ,
+        "name": { "type": "literal" , "value": "Erik Axel Karlfeldt" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1931-04-08" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/605" } ,
+        "name": { "type": "literal" , "value": "John Galsworthy" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1933-01-31" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/607" } ,
+        "name": { "type": "literal" , "value": "Luigi Pirandello" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1936-12-10" }
+      } ,
+      {
+        "resource": { "type": "uri" , "value": "http://data.nobelprize.org/resource/laureate/8" } ,
+        "name": { "type": "literal" , "value": "Lord Rayleigh (John William Strutt)" } ,
+        "value": { "datatype": "http://www.w3.org/2001/XMLSchema#date" , "type": "typed-literal" , "value": "1919-06-30" }
+      }
+    ]
+  }
+}
